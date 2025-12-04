@@ -1,0 +1,33 @@
+{
+  "name": "lead-generation-apollo",
+  "version": "1.0.0",
+  "description": "Modular lead generation plugin using Apollo.io and netmind MCP for LinkedIn data retrieval",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js",
+    "prepublish": "npm run build"
+  },
+  "keywords": [
+    "lead-generation",
+    "apollo",
+    "linkedin",
+    "mcp",
+    "sales",
+    "automation"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "typescript": "^5.7.2"
+  }
+}

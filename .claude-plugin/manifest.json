@@ -1,0 +1,31 @@
+{
+  "name": "lead-generation-apollo",
+  "version": "1.0.0",
+  "description": "Modular lead generation plugin using Apollo.io for LinkedIn and B2B prospecting",
+  "author": "",
+  "homepage": "",
+  "type": "mcp",
+  "main": "dist/index.js",
+  "capabilities": {
+    "tools": [
+      "search_leads",
+      "enrich_contact",
+      "bulk_enrich_contacts",
+      "score_lead",
+      "export_leads"
+    ]
+  },
+  "requirements": {
+    "env": [
+      "APOLLO_API_KEY"
+    ]
+  },
+  "tags": [
+    "lead-generation",
+    "apollo",
+    "linkedin",
+    "sales",
+    "prospecting",
+    "b2b"
+  ]
+}
