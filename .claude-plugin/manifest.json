@@ -13,12 +13,28 @@
       "bulk_enrich_contacts",
       "score_lead",
       "export_leads"
+    ],
+    "commands": [
+      "search-leads",
+      "enrich-contact",
+      "score-leads",
+      "export-leads",
+      "lead-workflow"
     ]
   },
   "requirements": {
     "env": [
       "APOLLO_API_KEY"
     ]
+  },
+  "mcp": {
+    "server": {
+      "command": "node",
+      "args": ["dist/index.js"],
+      "env": {
+        "APOLLO_API_KEY": "${APOLLO_API_KEY}"
+      }
+    }
   },
   "tags": [
     "lead-generation",
